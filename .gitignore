@@ -1,3 +1,10 @@
+# Custom
+*.venv
+*.gz
+data
+*.pth
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
