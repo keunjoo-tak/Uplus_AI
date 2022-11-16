@@ -1,0 +1,72 @@
+# 시청 시작 데이터 A
+history_df 
+    [컬럼]
+프로필ID profile_id
+세션시간 ss_id
+행동시간 log_time
+행동분류 act_target_dtl
+앨범ID album_id
+지불금액 payment
+연속재생여부 continuous_play
+예고편여부 short_trailer
+
+# 시청 종료 데이터 A
+watch_e_df
+    [컬럼]
+프로필ID profile_id
+세션시간 ss_id
+행동시간 log_time
+행동분류 act_target_dtl
+앨범ID album_id
+실제시청시간 watch_time
+콘텐츠길이 total_time
+연속재생여부 continuous_play
+
+# 구매 이력 데이터 A
+buy_df 
+    [컬럼]
+프로필ID profile_id
+세션시간 ss_id
+행동시간 log_time
+행동분류 act_target_dtl
+앨범ID album_id
+지불금액 payment
+
+
+# 검색을 통한 시청 데이터 A
+search_df
+    [컬럼]
+프로필ID profile_id
+세션시간 ss_id
+행동시간 log_time
+행동분류 act_target_dtl
+앨범ID album_id
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+# 콘텐츠 일반 메타 정보 B
+meta_df
+    [컬럼]    
+
+
+# 콘텐츠 확장 정보 B
+meta_data_plus_df
+    [컬럼]
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+# 프로필 정보 C
+profile_df
+    [컬럼]
+프로필ID
+연령
+성별
+부모관심키워드코드1 : 과학기술/정서사회성/자연탐구/바른생활안전/활동운동/음악예술/언어논리/수리논리
+부모관심키워드코드2
+부모관심키워드코드3
+아이관심키워드코드1 : 노래율동/동물식물/동화/만들기/숫자계산/외국어/친구사람/탈것기계/활동운동
+아이관심키워드코드2
+아이관심키워드코드3
+
+
