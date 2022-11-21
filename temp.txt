@@ -44,7 +44,7 @@ search_df
 #concat_df (1705986, 10)
 1,705,986 row
 profile_id : 8311
-
+가격 종류 : 40가지
 
 
 
