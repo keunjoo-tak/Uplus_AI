@@ -1,4 +1,4 @@
-# 시청 시작 데이터 A
+# 시청 시작 데이터 A (1005651, 8)
 history_df 
     [컬럼]
 프로필ID profile_id
@@ -10,7 +10,7 @@ history_df
 연속재생여부 continuous_play
 예고편여부 short_trailer
 
-# 시청 종료 데이터 A
+# 시청 종료 데이터 A (892794, 8)
 watch_e_df
     [컬럼]
 프로필ID profile_id
@@ -22,7 +22,7 @@ watch_e_df
 콘텐츠길이 total_time
 연속재생여부 continuous_play
 
-# 구매 이력 데이터 A
+# 구매 이력 데이터 A  (150,6)
 buy_df 
     [컬럼]
 프로필ID profile_id
@@ -32,8 +32,7 @@ buy_df
 앨범ID album_id
 지불금액 payment
 
-
-# 검색을 통한 시청 데이터 A
+# 검색을 통한 시청 데이터 A (6474, 5)
 search_df
     [컬럼]
 프로필ID profile_id
@@ -42,13 +41,19 @@ search_df
 행동분류 act_target_dtl
 앨범ID album_id
 
+#concat_df (1705986, 10)
+1,705,986 row
+profile_id : 8311
+
+
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
 # 콘텐츠 일반 메타 정보 B
-meta_df
+meta_df (42602, 16) 
     [컬럼]    
-
+    * album_id가 중복되는 값들이 있음(1~4)
 
 # 콘텐츠 확장 정보 B
 meta_data_plus_df
